@@ -1,0 +1,31 @@
+
+public class SelectionSort {
+	int arrSize;
+	int[] inArray ;
+	int minpos;
+	int startpos;
+	
+	// constructor 
+	public SelectionSort(int []inArray,int arrSize){
+		this.inArray= inArray;
+		this.arrSize = arrSize;
+		inArray = new int[arrSize];
+	}
+  	
+	//scanning an array 
+	for(startpos=0;startpos<arrSize-1;startpos++){
+		
+		//finding minimum value
+		minpos=startpos;
+		for(int i = minpos+1; i< arrSize ; i++){
+			if(inArray[i] < inArray[minpos]){
+				minpos = i;
+			} // if loop
+		} // min for loop
+		swap
+	}
+
+	
+	
+	
+} //class end 
